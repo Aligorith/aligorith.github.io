@@ -103,6 +103,9 @@ a {
 	text-align: center;
 	white-space: nowrap;
 }
+.page-header nav li:hover {
+	background: #444444;
+}
 .page-header nav a li {
 	color: white;
 }
@@ -113,6 +116,9 @@ a {
 	background: #F7860C;
 	border-color: #BF6200;
 	border-width: 1px
+}
+.page-header .current-page:hover {
+	background: #F7AC0C
 }
 
 @media screen and (min-width: 64em) {
