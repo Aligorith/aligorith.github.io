@@ -53,11 +53,67 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
+/* Photo Banner */
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  text-shadow: 2px 2px #111111;
+  background-color: #333;
+  background-image: url("../images/jsl_photos_header_banner-web.jpg");
+  background-size: contain;
+}
+/* Homepage Version of Photo Banner */
+.page-header .home-banner {
+  background-image: url("../images./jsl_photos_web_banner.jpg")
+}
+
+/* Darker background behind banner text */
+.page-header-contents {
+  padding: 0.5rem;
+  background-image: radial-gradient(ellipse farthest-side, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 85%, transparent 100%);
+}
+
+/* Navigation Links */
+.page-header nav {
+	float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+.page-header nav ul {
+	//text-align: center;
+	list-style:none;
+    position:relative;
+    left:50%;
+	top:-1.5rem;
+}
+.page-header nav li {
+	display: block;
+	float: left;
+
+	margin: 0.3rem;
+	padding: 1.5rem 2.5rem;
+
+	background: black;
+	color: white;
+	opacity: 30%;
+
+	font-size: 1.3rem;
+	//text-shadow: none;
+	text-align: center;
+	white-space: nowrap;
+}
+.page-header nav a li {
+	color: white;
+}
+.page-header nav ul :firstchild {
+	float: center;
+}
+.page-header .current-page {
+	background: #F7860C;
+	border-color: #BF6200;
+	border-width: 1px
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -73,7 +129,8 @@ a {
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0.1rem; 
+ }
 
 @media screen and (min-width: 64em) {
   .project-name {
