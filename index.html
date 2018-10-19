@@ -2,48 +2,61 @@
 <html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-	<title>Joshua Leung (Aligorith)</title>
+	<title>Dr Joshua Leung (Aligorith)</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" type="text/css" href="stylesheets/site.css" media="screen">
 </head>
 <body>
-	<section class="page-header home-banner">
-		<div class="page-header-contents">
-			<h1 class="project-name">Joshua Leung (Aligorith)</h1>
-			<h2 class="project-tagline">Interaction scientist specialising in technologies for enabling fluid creative expression</h2>
+	<nav class="navbar navbar-expand-lg navbar-dark navbar-dark-bg">
+		<a class="navbar-brand" href="#"><img id="nl_home" class="hover_glow" src="images/avatar_badge.svg" alt="Aligorith" /></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="navbar-nav ml-auto">
+				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="bio.html">About</a>
+				<a class="nav-item nav-link" href="projects.html">Projects</a>
+				<a class="nav-item nav-link" href="contact.html">Contact</a>
+			</div>
 		</div>
-		<nav>
-			<ul>
-				<a href="index.html"><li class="current-page">Home</li></a>
-				<a href="bio.html"><li>About</li></a>
-				<a href="projects.html"><li>Projects</li></a>
-				<a href="contact.html"><li>Contact</li></a>
-			</ul>
-		</nav>
-	</section>
+	</nav>
+	<header class="page-header home-banner dropshadow-v-below">
+		<div class="page-header-contents">
+			<div id="name_container">
+				<h1 id="main_name_badge"><a href="about.html" class="hover_glow">Joshua Leung</a></h1>
+				<p id="letters">
+					<span title="Bachelor of Science with First Class Honours &#013;&#010;in Computer Science, &#013;&#010;University of Canterbury, &#013;&#010;(Graduated: 12/12/12)">BSc(Hons)</span>, 
+					<span title="Doctor of Philosophy in Computer Science, &#013;&#010;University of Canterbury, &#013;&#010;(Graduated: 15/12/17)">PhD</span>,
+					<span title="Diploma of The ABRSM in Violin Music Performance, &#013;&#010;October 2006">DipABRSM</span>,
+					<span title="Licentiate Diploma in Recital in Violin with Distinction, &#013;&#010;Trinity College London, &#013;&#010;August 2007">LTCL</span>,
+					<span title="Fellowship Diploma in Violin Performance, &#013;&#010;Trinity College London&#013;&#010;August 2008">FTCL</span>
+				</p>
+			</div>
+		</div>
+	</header>
 	
-	<section class="main-content">
-		<h3>
-			<a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome</h3>
-			
-			<p>This is the online homepage of Dr Joshua Leung (Aligorith). This site is still under construction, so may still be rough around the edges.</p>
-			
-			<h3>
-			<a id="summary" class="anchor" href="summary" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick Summary</h3>
-			<ul>
-				<li>Software Engineer, UX consultant, Graphics/HCI/Visualisation expert, Violinist, and Photographer based in Christchurch, New Zealand.</li>
-				<li>Core <a href="http://www.blender.org">Blender</a> developer since 2006, responsible for Animation Tools and <a href="https://vimeo.com/channels/greasepencil">Grease Pencil</a>.</li>
-				<li><a href="research/phd/phd_thesis.html">PhD</a> in <a href="http://www.cosc.canterbury.ac.nz">Computer Science</a> (HCI) at <a href="http://www.canterbury.ac.nz">University of Canterbury</a></li>
-				<li>Passionate about developing new tools character animation making it easier for animators to create beautiful art</li>
-				<li>For more details, see <a href="bio.html">here</a> or <a href="contact.html">contact me</a> via email <a href="mailto:aligorith@gmail.com">aligorith@gmail.com</a>.
-			</ul>
-		
-		<footer class="site-footer">
-			<span class="site-footer-credits">(c) Joshua Leung, 2018</span>
-		</footer>
-	</section>
+	<main class="main-content">
+		<h3><a id="summary" class="anchor" href="summary" aria-hidden="true"></a>Quick Summary</h3>
+		<ul>
+			<li><b>Software Engineer</b>, <b>Researcher</b>, and <b>Creative</b> based in Christchurch, New Zealand</li>
+			<li>Core <b><a href="blender.html">Blender</a> Developer</b> since 2006, responsible for <b><a href="blender.html#Animato">Animation Tools</a> and <a href="projects/gpencil_sa15/paper_info.html">Grease Pencil</a></b></li>
+			<li><b>HCI/UX</b>, <b>Computer Graphics</b>, and <b>Visualisation</b> Expert</li>
+			<li>Experienced Computer Science <b>Tutor</b> and <b>Mentor</b></li>
+			<li>Classically Trained <b>Violinist</b> - National Finalist and Orchestra Leader</li>
+			<li>Nature &amp; Wildlife <b>Photographer</b></li>
+		</ul>
+		<p>For more details, see <a href="about.html">here</a> or <a href="contact.html">contact me</a> via email at <a href="mailto:aligorith@gmail.com">aligorith@gmail.com</a>.</p>
+	</main>
+	
+	<footer class="site-footer">
+		<span class="site-footer-credits">(c) Joshua Leung, 2018</span>
+	</footer>
 </body>
 </html>
