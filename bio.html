@@ -2,34 +2,52 @@
 <html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-	<title>About - Joshua Leung</title>
+	<title>About Dr Joshua Leung (Aligorith)</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" type="text/css" href="stylesheets/site.css" media="screen">
 </head>
 <body>
-	<section class="page-header">
-		 <div class="page-header-contents">
-			<h1 class="project-name">Joshua Leung (Aligorith)</h1>
-			<h2 class="project-tagline">Interaction scientist specialising in technologies for enabling fluid creative expression</h2>
+	<nav class="navbar navbar-expand-lg navbar-dark navbar-dark-bg">
+		<a class="navbar-brand" href="#"><img id="nl_home" class="hover_glow" src="images/avatar_badge.svg" alt="Aligorith" /></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="navbar-nav ml-auto">
+				<div class="navbar-nav ml-auto">
+				<a class="nav-item nav-link" href="/">Home</a>
+				<a class="nav-item nav-link active" href="bio.html">About <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="projects.html">Projects</a>
+				<a class="nav-item nav-link" href="contact.html">Contact</a>
+			</div>
 		</div>
-		<nav>
-			<ul>
-				<a href="index.html"><li>Home</li></a>
-				<a href="bio.html"><li class="current-page">About</li></a>
-				<a href="projects.html"><li>Projects</li></a>
-				<a href="contact.html"><li>Contact</li></a>
-			</ul>
-		</nav>
-	</section>
-
-	<section class="main-content">
-		<h3>About</h3>
-		<p>Joshua Leung is a software engineer, UX/HCI/Computer Grahics/Visualisation expert, violinist, and photographer based in Christchurch, New Zealand. Since 2006, he has been an active core developer/module owner of <a href="http://www.blender.org">Blender</a> (the premier open source 3D creation suite), responsible for all aspects of the Animation Tools and the <a href="https://vimeo.com/channels/greasepencil">Grease Pencil</a> freehand sketching/animation tools. He is passionate about developing new tools for character animation which help artists achieve their creative goals easier and faster than ever before.</p>
+	</nav>
+	<header class="page-header home-banner dropshadow-v-below">
+		<div class="page-header-contents">
+			<div id="name_container">
+				<h1 id="main_name_badge"><a href="about.html" class="hover_glow">Joshua Leung</a></h1>
+				<p id="letters">
+					<span title="Bachelor of Science with First Class Honours &#013;&#010;in Computer Science, &#013;&#010;University of Canterbury, &#013;&#010;(Graduated: 12/12/12)">BSc(Hons)</span>, 
+					<span title="Doctor of Philosophy in Computer Science, &#013;&#010;University of Canterbury, &#013;&#010;(Graduated: 15/12/17)">PhD</span>,
+					<span title="Diploma of The ABRSM in Violin Music Performance, &#013;&#010;October 2006">DipABRSM</span>,
+					<span title="Licentiate Diploma in Recital in Violin with Distinction, &#013;&#010;Trinity College London, &#013;&#010;August 2007">LTCL</span>,
+					<span title="Fellowship Diploma in Violin Performance, &#013;&#010;Trinity College London&#013;&#010;August 2008">FTCL</span>
+				</p>
+			</div>
+		</div>
+	</header>
+	
+	<main class="main-content">
+		<h3>Biography</h3>
+		<p>Joshua Leung is a software engineer, UX/HCI/Computer Grahics/Visualisation expert, violinist, and photographer based in Christchurch, New Zealand. Since 2006, he has been an active core developer/module owner of <a href="https://www.blender.org">Blender</a> (the premier open source 3D creation suite), responsible for all aspects of the Animation Tools and the <a href="projects/gpencil_sa15/paper_info.html">Grease Pencil</a> freehand sketching/animation tools. He is passionate about developing new tools for character animation which help artists achieve their creative goals easier and faster than ever before.</p>
 		
-		<p>From 2009-2012, Joshua studied Computer Science at the University of Canterbury, graduating with a Bachelor of Science with First Class Honours on 12 December 2012 (12-12-12). In 2017, he completed a <a href="research/phd/phd_thesis.html">PhD</a> in Computer Science (specialising in Human-Computer Interaction) in the <a href="http://www.cosc.canterbury.ac.nz/research/RG/HCI/HCIlab/">HCI and Multimedia Lab</a> (supervised by <a href="mailto: andy@cosc.canterbury.ac.nz">Prof Andy Cockburn</a>), focussing on understanding how the noticeability and distraction characteristics of interactive highlighting techniques can be objectively quantified.</p>
+		<p>From 2009-2012, Joshua studied Computer Science at the University of Canterbury, graduating with a Bachelor of Science with First Class Honours on 12 December 2012 (12-12-12). In 2017, he completed a <a href="research/phd/phd_thesis.html">PhD</a> in Computer Science (specialising in Human-Computer Interaction) in the <a href="http://www.cosc.canterbury.ac.nz/research/RG/HCI/HCIlab/">HCI and Multimedia Lab</a> (supervised by <a href="mailto: andy@cosc.canterbury.ac.nz">Prof Andy Cockburn</a>), focussing on understanding how the noticeability and distraction characteristics of interactive highlighting techniques can be objectively catalogued and quantified.</p>
 		
 		<p>Previously, Joshua was also a violinist whose teachers included Oleg Kotorovych (Assistant Concertmaster, CSO), Iryna Ionenko (Principal Second Violin, CSO), and Robin Wilson. He was awarded with a DipABRSM in 2006, LTCL with Distinction in 2007, and FTCL in 2008. He won the "Most Promising" award at the National Young Performer of the Year Awards (PACNZ 2007), was a finalist in the National Chamber Music Contest 2006 with <i>A La Vez</i>, and was the orchestra leader at the Christchurch Schools Music Festival (2003) and at Burnside High School (2008). He was also a member of the Specialist Music Programme during his time at Burnside High School (admission by audition only).</p>
 		
@@ -40,10 +58,10 @@
 		
 		<h3>Contact</h3>
 		<p>For contact details, <a href="contact.html">click here</a>.</p>
-
-		<footer class="site-footer">
-			<span class="site-footer-credits">(c) Joshua Leung, 2015</span>
-		</footer>
-	</section>
+	</main>
+	
+	<footer class="site-footer">
+		<span class="site-footer-credits">(c) Joshua Leung, 2018</span>
+	</footer>
 </body>
 </html>
