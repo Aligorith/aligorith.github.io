@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   id="svg9267"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   viewBox="0 0 48 48"
+   sodipodi:docname="Facebook_Logo_Color.svg">
+  <defs
+     id="defs9269">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="cp44">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 978,843 0,54 c 0,2.76 2.24,5 5,5 l 78,0 c 2.77,0 5,-2.24 5,-5 l 0,-54 c 0,-2.76 -2.23,-5 -5,-5 l -78,0 c -2.76,0 -5,2.24 -5,5 z"
+         id="path717" />
+    </clipPath>
+    <linearGradient
+       id="grd104"
+       gradientUnits="userSpaceOnUse"
+       x1="1047.021"
+       y1="911.00299"
+       x2="981.96399"
+       y2="833.03198">
+      <stop
+         offset="0"
+         stop-color="#dad8d8"
+         stop-opacity="0"
+         id="stop720" />
+      <stop
+         offset="1"
+         stop-color="#c6c6c6"
+         id="stop722" />
+    </linearGradient>
+    <linearGradient
+       id="grd83"
+       gradientUnits="userSpaceOnUse"
+       x1="870.5"
+       y1="382"
+       x2="870.5"
+       y2="446">
+      <stop
+         offset="0"
+         stop-color="#e72b22"
+         id="stop556" />
+      <stop
+         offset="1"
+         stop-color="#dd2a22"
+         id="stop558" />
+    </linearGradient>
+    <linearGradient
+       id="grd137"
+       gradientUnits="userSpaceOnUse"
+       x1="1782"
+       y1="50"
+       x2="1782"
+       y2="170">
+      <stop
+         offset="0"
+         stop-color="#6387d3"
+         id="stop998" />
+      <stop
+         offset="1"
+         stop-color="#2d4a86"
+         id="stop1000" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#4d4d4d"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.1865234"
+     inkscape:cx="5.4715645"
+     inkscape:cy="15.813443"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9272">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       transform="matrix(0.24560416,0,0,0.24560416,-413.66539,-3.0164576)"
+       id="Facebook"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3847"
+         style="fill:url(#grd137)"
+         d="M 1750.59,50 C 1733.25,50 1722,61.25 1722,78.59 l 0,62.81 c 0,17.34 11.25,28.59 28.59,28.59 0.1,0 62.71,0 62.81,0 17.34,0 28.59,-11.25 28.59,-28.59 0,-0.1 0,-62.71 0,-62.81 0,-17.34 -11.25,-28.59 -28.59,-28.59 -0.1,0 -62.81,0 -62.81,0 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3849"
+         style="fill:#ffffff"
+         d="m 1784.77,170 19.24,0 0,-47.07 15.56,0 2.59,-16.71 -17.98,0 0,-12.71 c 0.09,-8.44 8.27,-8 8.27,-8 l 11.11,0 0,-17.03 -17.83,0 c -22.05,0 -20.96,25.48 -20.96,25.48 l 0,12.26 -15.1,0 0,16.71 15.1,0 0,46.48 z" />
+    </g>
+  </g>
+</svg>

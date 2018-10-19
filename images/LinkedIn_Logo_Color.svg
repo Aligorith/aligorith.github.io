@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 47.999999"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="LinkedIn_Logo_Color.svg">
+  <title
+     id="title4692">A4_Diagram_Template</title>
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath4150"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4152"
+         d="M 0,180 0,0 l 234.551,0 0,180 L 0,180 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#969696"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.8984375"
+     inkscape:cx="20.653207"
+     inkscape:cy="26.609985"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4146"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>A4_Diagram_Template</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1004.3866)">
+    <g
+       transform="matrix(1.25,0,0,-1.25,12.819648,1041.815)"
+       inkscape:label="ink_ext_XXXXXX"
+       id="g4142">
+      <g
+         transform="scale(0.1,0.1)"
+         id="g4144">
+        <g
+           id="g4146">
+          <g
+             clip-path="url(#clipPath4150)"
+             id="g4148"
+             transform="matrix(1.2984446,0,0,1.2984446,-27.409407,-9.432814)">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4154"
+               style="fill:#18679e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 166.672,180 13.2734,180 C 5.94922,180 0,174.191 0,167.023 L 0,12.9883 C 0,5.82031 5.94922,0 13.2734,0 L 166.672,0 c 7.344,0 13.316,5.82031 13.316,12.9883 l 0,154.0347 c 0,7.168 -5.972,12.977 -13.316,12.977" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path4156"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 40.0391,155.219 c 8.5351,0 15.4687,-6.938 15.4687,-15.485 0,-8.543 -6.9336,-15.48 -15.4687,-15.48 -8.5743,0 -15.5,6.937 -15.5,15.48 0,8.547 6.9257,15.485 15.5,15.485 m -13.3789,-42.699 26.7304,0 0,-85.8989 -26.7304,0 0,85.8989" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path4158"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 70.1367,112.52 25.586,0 0,-11.743 0.3711,0 c 3.5664,6.754 12.2652,13.871 25.2542,13.871 27.043,0 32.031,-17.7847 32.031,-40.9175 l 0,-47.1094 -26.691,0 0,41.7773 c 0,9.961 -0.172,22.7735 -13.875,22.7735 -13.8872,0 -16.0083,-10.8594 -16.0083,-22.0625 l 0,-42.4883 -26.668,0 0,85.8989" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
