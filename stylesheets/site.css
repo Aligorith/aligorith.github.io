@@ -38,6 +38,13 @@ a:hover {
 	-moz-box-shadow: -4px -7px 20px -7px rgba(0,0,0,0.75);
 }
 
+/* Dropshadow (inside) for layering effect */
+.dropshadow-inside {
+	box-shadow: inset -4px -7px 20px -7px rgba(0,0,0,0.75);
+	-webkit-box-shadow: inset -4px -7px 20px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -4px -7px 20px -7px rgba(0,0,0,0.75);
+}
+
 /* Class "hoverglow" - Make element under mouse glow when mouse moves over them */
 .hover_glow {
 	transition: all 0.25s linear;
@@ -223,13 +230,18 @@ a:hover {
 	padding: 0.5rem;
 	margin-top: 2rem;
 	border-top: solid 1px #eff0f1;
+	
+	/* .dropshadow-inside */
+	box-shadow: inset -4px -7px 20px -7px rgba(0,0,0,0.75);
+	-webkit-box-shadow: inset -4px -7px 20px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -4px -7px 20px -7px rgba(0,0,0,0.75);
 }
 .site-footer-owner {
 	display: block;
-	font-weight: bold; 
+	font-weight: bold;
 }
 .site-footer-credits {
-	color: #889275; 
+	color: #757D65;
 }
 
 /* Footer Font-Size Responsive Sizing */
@@ -334,12 +346,12 @@ a:hover {
 }
 
 #main_name_badge ::before {
-	content: "Dr  ";
-	vertical-align: center;
-	font-size: 75%;
+	content: "Dr   ";
+	vertical-align: 10%;
+	font-size: 80%;
 }
 #main_name_badge ::after {
-	content: "  ";
+	content: "     ";
 }
 
 @media screen and (min-width: 64em) {
