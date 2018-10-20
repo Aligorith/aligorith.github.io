@@ -2,44 +2,98 @@
 <html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-	<title>Blender - Joshua Leung</title>
+	<title>Blender - Dr Joshua Leung (Aligorith)</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	
+	<link rel="stylesheet" href="/libs/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO">
+	<script src="/libs/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"></script>
+	<script src="/libs/popper.min.js"></script>
+	<script src="/libs/tippy.all.min.js"></script>
+	<script src="/libs/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"></script>
+	
+	<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/libs/tippy.css">
+	
+	<script type="text/javascript">
+		$(document).ready(function(event) {
+			/* Use "Tippy.js" on "letters" elements */
+			tippy('[title]', {
+				placement: "bottom",
+				theme: "letters",
+				
+				arrow: true,
+				arrowType: "round",
+				
+				animation: "fade",
+				duration: "200",
+				trigger: "mouseenter",
+			});
+		});
+	</script>
 </head>
 <body>
-	<section class="page-header">
-		<div class="page-header-contents">
-			<h1 class="project-name">Joshua Leung (Aligorith)</h1>
-			<h2 class="project-tagline">Interaction scientist specialising in technologies for enabling fluid creative expression</h2>
+	<nav class="navbar navbar-expand-lg navbar-dark navbar-dark-bg">
+		<a class="navbar-brand" href="#"><img id="nl_home" class="hover_glow" src="/images/avatar_badge.svg" alt="Aligorith" /></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="navbar-nav ml-auto">
+				<div class="navbar-nav ml-auto">
+				<a class="nav-item nav-link" href="/">Home</a>
+				<a class="nav-item nav-link active" href="/bio.html">About <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="/projects.html">Projects</a>
+				<a class="nav-item nav-link" href="/contact.html">Contact</a>
+			</div>
 		</div>
-		<nav>
-			<ul>
-				<a href="index.html"><li>Home</li></a>
-				<a href="bio.html"><li>About</li></a>
-				<a href="projects.html"><li class="current-page">Projects</li></a>
-				<a href="contact.html"><li>Contact</li></a>
-			</ul>
-		</nav>
-	</section>
-
-	<section class="main-content">
-		<h1>Blender Stuff</h1>
-		<p>
-			My involvement with <a href="https://www.blender.org">Blender</a> started in 2004 shortly after the release of
-			Blender 2.33/a as a 3D enthusiast upgrading to a more powerful package after reaching the limits of <a href="http://www.openfx.org/">OpenFX</a>
-			(and <a href="http://www.anim8or.com/">Anim8or</a> before it).
-		</p>
+	</nav>
+	<header class="page-header home-banner dropshadow-v-below">
+		<div class="page-header-contents">
+			<h1>Blender</h1>
+		</div>
+	</header>
+	
+	<main class="main-content">
+		<h1>Introduction</h1>
 		
-		<h2>Contact</h3>
-			<p>For contact details, <a href="contact.html">click here</a>.</p>
-
-			<footer class="site-footer">
-				<span class="site-footer-credits">(c) Joshua Leung, 2015-2018</span>
-			</footer>
-
-		</section>
-	</body>
+		<h1>Blender Development Work</h1>
+		<p>Since 2006, I've been an active core Blender developer, focussing primarily on the Animation System/Tools and Grease Pencil.</p>
+		
+		<h2 id="animato">Animation System/Tools</h2>
+		<p>Notable contributions:</p>
+		<ul>
+			<li><b>Animato</b> (2009) - Architect of a full recode of the animation system to make it possible to "<i>animate everything</i>", as part of the 2.5 project.
+				<ul>
+					<li><b>Animation Editors Design + Implementation</b> (2008-2011) - Full redesign of the animation editors (and all their tools) to </li>
+					<li><b>AnimChannel Filtering API</b> (2008-2011) - Architect of the underlying backbone used to power all the animation editors.</li>
+				</ul>
+			</li>
+			<li><b>Constraint System Refactor</b> (2007) - Refactored the constraints system to be more modular, more easily extensible, and more flexible.</li>
+			<li><b>Bendy Bones</b> (2016)</li>
+			<li><b>Spline IK</b></li>
+			<li><b>Breakdowner, Push/Pull Pose</b></li>
+			<li><b>Pose Propagate</b></li>
+			<li><b>Pose Libraries</b></li>
+			<li><b>PyConstraint</b> (2.4x)</li>
+		</ul>
+		
+		<h2 id="gpencil">Grease Pencil</h2>
+		<p>Original creator of the Grease Pencil tools in Blender. For more details, see <a href="/research/gpencil_sa15/paper_info.html">the paper</a>.</p>
+		
+		<h2>General Development</h2>
+		
+		
+		<h2 id="addons">Addons</h2>
+		<ul>
+			<li>Remap Shapekeys</li>
+		</ul>
+		
+		<h1>Blender Art</h1>
+		
+	</main>
+	
+	<footer class="site-footer">
+		<span class="site-footer-credits">(c) Joshua Leung, 2018</span>
+	</footer>
+</body>
 </html>
