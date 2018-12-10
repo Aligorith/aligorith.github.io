@@ -61,17 +61,18 @@
 		<h2 id="animato">Animation System/Tools</h2>
 		<p>Notable contributions:</p>
 		<ul>
-			<li><b>Animato</b> (2009) - Architect of a full recode of the animation system to make it possible to "<i>animate everything</i>", as part of the 2.5 project.
+			<li><b>Animato</b> (2009) - Architect of a full recode of the animation system to support the "<i>everything animateable</i>" target for the 2.5 project.</li>
+			<li><b>Animation Editors</b> - Module owner and responsible for fully recoding these (and all their tools)
 				<ul>
-					<li><b>Animation Editors Design + Implementation</b> (2008-2011) - Full redesign of the animation editors (and all their tools) to </li>
+					<li><b>Animation Editors Design + Implementation</b> (2008-2011) - Full redesign of the animation editors (and all their tools) to unify their designs and use the AnimChannel Filtering API behind the scenes.</li>
 					<li><b>AnimChannel Filtering API</b> (2008-2011) - Architect of the underlying backbone used to power all the animation editors.</li>
-					<li><b>Keying Sets</b> (2009)</li>
 				</ul>
 			</li>
+			<li><b>Keying Sets</b> (2009)</li>
 			<li><b>Constraint System Refactor</b> (2007) - Refactored the constraints system to be more modular, more easily extensible, and more flexible.
 			Developed the following constraints:
 				<ul>
-					<li>Transform Limiting Constraints</li>
+					<li>Transform Limiting Constraints - Limit Location/Rotation/Scale</li>
 					<li>Limit Distance</li>
 					<li>Clamp To</li>
 					<li>Damped Track</li>
@@ -88,6 +89,22 @@
 			<li><b>Pose Libraries</b></li>
 			<li><b>Bone Colour Sets + Bone Groups</b></li>
 			<li><b>Mask Modifier</b></li>
+			<li><b>Various Timeline Marker Tools/Improvements</b>
+				<ul>
+					<li><b>Marker Editing Support in All Animation Editors</b></li>
+					<li><b>"Local Markers" Support</b> (needed for the Pose Libraries tool)</li>
+				</ul>
+			</li>
+			<li><b>Various Armature Editing Tools</b>
+				<ul>
+					<li><b>Interactive Bone Roll tool</b> (in Edit Mode)</li>
+					<li><b>Join/Separate Armatures</b></li>
+					<li><b>Fill Bone Chains</b></li>
+					<li><b>Merge Bones</b></li>
+					<li><b>Switch Direction</b> (of bones in Edit Mode)</li>
+					<li><b>Snap (Shift-S)</b> (with bone space awareness)</b></li>
+				</ul>
+			</li>
 		</ul>
 		
 		<h2 id="gpencil">Grease Pencil</h2>
@@ -97,6 +114,7 @@
 		<p>In addition to working on the Animation System refactor for Blender 2.5, I also worked on the following projects:</p>
 		<ul>
 			<li><b>View2D Cleanup/Porting</b> - Cleaned up the code used to implement the scrollable/zoomable 2D UI regions used across the UI</li>
+			<li><b>Operator and RNA Porting</b> - During the early stages of the Blender 2.5 project, I worked on porting some of the first working "operators" in 2.5. Many of the operators now still retain many of the conventions I introduced during this time.</li>
 		</ul>
 		
 		<h2>General Development</h2>
@@ -105,6 +123,8 @@
 			<li>Text-based Search/Filtering in the Outliner</li>
 			<li>Horizontal scrolling support in the Outliner</li>
 			<li>The <b>Orphan Datablocks</b> view in the Outliner</li>
+			<li>Refactored the Outliner code into separate files</li>
+			<li>Curve point selection tools (e.g. Select First/Last, Nth, etc.)</li>
 		</ul>
 		
 		<h2 id="addons">Addons</h2>
