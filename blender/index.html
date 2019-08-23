@@ -14,6 +14,12 @@
 	<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="/libs/tippy.css">
 	
+	<style>
+		.main-content ul > li, .main-content ol > li {
+			margin-bottom: 5px;
+		}
+	</style>
+	
 	<script type="text/javascript">
 		$(document).ready(function(event) {
 			/* Use "Tippy.js" on "letters" elements */
@@ -48,31 +54,36 @@
 	</nav>
 	<header class="page-header home-banner dropshadow-v-below">
 		<div class="page-header-contents">
-			<h1>Blender</h1>
+			<h1>Blender Portfolio</h1>
 		</div>
 	</header>
 	
 	<main class="main-content">
-		<h1>Introduction</h1>
+		<h1>My Blender Story</h1>
+		<p><a href="https://www.blender.org">Blender</a> is the world's premier open source content creation suite for high-end 3D (and 3D+2D) graphics.</p>
+		
+		<p>I first started using Blender during the summer of 2003-2004 shortly after the release of Blender 2.33, having previously tinkered with and outgrown the capabilities of other popular freeware apps available the time (e.g. Draw3D, <a href="http://www.anim8or.com/">Anim8or</a>, and <a href="http://www.openfx.org/">OpenFX</a> to name a few). Admittedly, like many, I was initially put off by the interface the first few times I tried using Blender. Having an underpowered integrated graphics card that caused a lot of flickering and glitching probably didn't help. However, after persevering through the famous "Gingerbread Man" tutorial, things finally started to click. </p>
+		
+		<p>The production of <i><a href="https://orange.blender.org/">Elephants Dream</a></i> - the world's first Open Movie project - was an important moment in both the history of Blender and </p>
 		
 		<h1>Blender Development Work</h1>
-		<p>Since 2006, I've been an active core Blender developer, focussing primarily on the Animation System/Tools and Grease Pencil.</p>
+		<p>Since 2006, I've been an active core Blender developer, focussing primarily on the Animation System/Tools and Grease Pencil. Under my watch, Blender's animation capabilities have developed from being viewed as a :toy", to being comparable to (and in some cases more advanced) than "industry standard" tools such that multiple feature film productions have now been fully animated (or are in the process of being animated) using tools I've created.</p>
 		
 		<h2 id="animato">Animation System/Tools</h2>
-		<p>Notable contributions:</p>
+		<h4>Main contributions:</h4>
 		<ul>
-			<li><b>Animato</b> (2009) - Architect of a full recode of the animation system to support the "<i>everything animateable</i>" target for the 2.5 project.</li>
+			<li><b>Animato</b> (2009) - Architect of a full recode of the animation system to support the "<i>everything animateable</i>" target for the 2.5 project, bringing Blender's animation capabilities up to a professional standard.</li>
 			<li><b>Animation Editors</b> - Module owner and responsible for fully recoding these (and all their tools)
 				<ul>
 					<li><b>Animation Editors Design + Implementation</b> (2008-2011) - Full redesign of the animation editors (and all their tools) to unify their designs and use the AnimChannel Filtering API behind the scenes.</li>
 					<li><b>AnimChannel Filtering API</b> (2008-2011) - Architect of the underlying backbone used to power all the animation editors.</li>
 				</ul>
 			</li>
-			<li><b>Keying Sets</b> (2009)</li>
+			<li><b>Keying Sets</b> (2009) - A system for keyframing multiple properties at once, with support for both user-defined Keying Sets (i.e. "Absolute Keying Sets"), as well as dynamic script-generated ones (i.e. "Built-In Keying Sets", such as the standard Location, Rotation, Scaling ones based on the current selection)</li>
 			<li><b>Constraint System Refactor</b> (2007) - Refactored the constraints system to be more modular, more easily extensible, and more flexible.
 			Developed the following constraints:
 				<ul>
-					<li>Transform Limiting Constraints - Limit Location/Rotation/Scale</li>
+					<li><b>Transform Limiting Constraints</b> - Limit Location/Rotation/Scale</li>
 					<li>Copy Transforms</li>
 					<li>Limit Distance</li>
 					<li>Clamp To</li>
@@ -81,25 +92,34 @@
 					<li>PyConstraint</li>
 				</ul>
 			</li>
-			<li><b>New Dependency Graph Engine Architecture(DEG)</b> (2013)</li>
+			<li><b>New Dependency Graph Engine Architecture(DEG)</b> (2013) - Investigated and designed </li>
 			<li><b>Bullet RigidBody Sim Integration</b> (2010)</li>
+		</ul>
+		
+		<h4>Notable Contributions:</h4>
+		<ul>
 			<li><b>Bendy Bones</b> (2016)</li>
-			<li><b>Spline IK</b></li>
+			<li><b>Long Keyframes</b> (2008)</li>
 			<li><b>Breakdowner, Push/Relax Pose</b></li>
 			<li><b>Pose Propagate</b></li>
 			<li><b>Pose Libraries</b></li>
+			<li><b>Spline IK</b></li>
 			<li><b>Bone Colour Sets + Custom Bone Colors + Bone Groups</b></li>
 			<li><b>Mask Modifier</b></li>
+		</ul>
+		
+		<h4>Other Animation-Related Development</h4>
+		<ul>
 			<li><b>Various Timeline Marker Tools/Improvements</b>
 				<ul>
 					<li><b>Marker Editing Support in All Animation Editors</b></li>
 					<li><b>"Local Markers" Support</b> (needed for the Pose Libraries tool)</li>
 				</ul>
 			</li>
-			<li></li>
 			<li>Armature Drawing Features:
 				<ul>
 					<li><b>"Wire"</b> Draw Mode</li>
+					<li><b>Custom Bone Colors</b></li>
 				</ul>
 			</li>
 			<li><b>Various Armature Editing Tools</b>
@@ -130,18 +150,23 @@
 			<li>Text-based Search/Filtering in the Outliner</li>
 			<li>Horizontal scrolling support in the Outliner (2.42/3)</li>
 			<li>The <b>Orphan Datablocks</b> mode/tools in the Outliner (2.7x)</li>
-			<li>Refactored the Outliner code into separate files</li>
+			<li>Refactored the Outliner code to be more maintainable (by splitting into separate files)</li>
 			<li>Curve point selection tools (e.g. Select First/Last, Nth, etc.)</li>
-			<li>Custom Axis Colors for </li>
+			<li>Themeable primary axis colours</li>
 		</ul>
 		
-		<h2 id="addons">Addons</h2>
+		<h2 id="addons">Scripts and Addons</h2>
 		<ul>
-			<li>Remap Shapekeys</li>
+			<li><b>Remap Shapekeys</b> - Tool for transferring shape keys (and associated drivers) between meshes, where the source mesh is a subset of the destination mesh. It is designed to be used to transfer facial shape keys from a detailed head/face mesh on to a body built with the head mesh as a starting point (i.e. parts of both meshes are the same, even if the overall vertex count/order are different).</li>
+			<li><b><code>configure_blender.py</code></b> - Script for applying personal default settings to new Blender installs (e.g. after using <code>--factory-startup</code>)</li>
 		</ul>
 		
-		<h1>Blender Art</h1>
+		<h1>Quick Links</h1>
+		<h2>Development Sneak Peaks</h2>
+		[Gallery:DevVideos]
 		
+		<h2>Blender Art</h2>
+		[Gallery:Art]
 	</main>
 	
 	<footer class="site-footer">
