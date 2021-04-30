@@ -72,8 +72,14 @@ a:hover {
 	border-bottom:1.5px solid #179959;
 	padding-bottom:3px; 
 }
-.main-content p {
+.main-content p, .main-content p + p {
 	margin-bottom: 1em; 
+}
+.main-content p + ul {
+	margin-bottom: 0;
+}
+.main-content ul + p {
+	margin-bottom: 0;
 }
 .main-content code {
 	padding: 2px 4px;
@@ -133,7 +139,7 @@ a:hover {
 	content: normal; 
 }
 .main-content ul, .main-content ol {
-	margin-top: 0; 
+	margin-top: 0;
 }
 .main-content blockquote {
 	padding: 0 1rem;
