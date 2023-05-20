@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>TPMS Studio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../stylesheets/normalize.css" media="screen">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheet.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../../stylesheets/github-light.css" media="screen">
+	<link rel="icon" type="image/x-icon" href="icons/tpms_studio_icon.ico">
+</head>
+<body>
+	<section class="main-content">
+		<center>
+			<h1><b>TPMS Studio</b></h1>
+			<i>
+				Created by <b>Dr Joshua Leung</b>
+				<br>
+				with the 
+				<br>
+				<b><a href="https://www.canterbury.ac.nz/bic/3d-printed-porous-media">3D Printed Porous Media Research Group</a></b> at <a href="https://www.canterbury.ac.nz">UCNZ</a>
+			</i>
+		</center>
+		
+		<h1>Description</h1>
+		<p>
+			TPMS Studio is a CAD application for designing and preparing large lattice structures and supporting parts/structures for 3D Printing, with a particular focus on producing functional parts for Chemical and Process Engineering purposes (including Chromatography, Heat Exchangers, and Catalyst Beds).
+		</p>
+		
+		<p><center>
+			<figure>
+				<img src="promo_images/tpms_studio_collage-01-fullscreen.jpg"></img>
+				<figcaption>TPMS Studio logo and a selection of the 30 supported TPMS Unit Cell Kernels</figcaption>
+			</figure>
+		</center></p>
+		
+		<p><center>
+			<figure>
+				<img src="promo_images/ts-screenshot-helical_coil.png"></img>
+				<figcaption>Screenshot of the TPMS Studio UI (version 0.7.3)</figcaption>
+			</figure>
+		</center></p>
+		
+		<h1>Key Features</h1>
+		<ul>
+			<li>Native <b>built-in support for over 30 Triply Periodic Minimal Surface (TPMS)</b> Unit Cell kernels</li>
+
+			<li>Support for <b>Custom User-Defined Unit Cell Kernels</b> - Including custom implicit surface equations, CSG / primitive based shapes (e.g. Periodic Open Celluar Structures), mesh/volume/slice-based geometry, and geometry directly imported from MSLA print job archives.</li>
+
+			<li><b>GPU-based geometry engine utilising Signed Distance Field technology</b> (i.e. Field / Volume-based representation versus traditional boundary-rep CAD/modelling systems), allowing realtime, fully-interactive viewing and editing of complex 3D lattice geometries + part assemblies.</li>
+			
+			<li>Built-in support for basic <b>CSG-based modelling of macro geometry</b> (e.g. shells / casings, ports, etc.), with the <b>ability to import complex geometry</b> (meshes / volumes / 2D slices) from other modelling software.</li>
+
+			<li>Ability to <b>export to multiple formats</b> - STL, OBJ, Image Sequence, Screen Printer Stencils, etc. </li>
+
+			<li>Ability to <b>directly export job files for MSLA Resin Printing</b> without first meshing the structures (i.e. Prusa SL1(s) and all MSLA printers supported by <a href="https://github.com/sn4k3/UVtools)">UV Tools</a>, e.g. Creality Halot Sky, Creality LD-006, Anycubic Photon Mono X 6K)</li>
+
+			<li>Ability to <b>control lattice dimensions in terms of flow channel characteristics</b> (e.g. Hydraulic Diameter, Porosity, Wall Thickness). Can also control the lattice structure to <b>spatially vary these characteristics</b> (e.g. wall thickness and channel size gradients).</li>
+
+			<li><b>Built-in screenshot tool</b> - Supports consistent precision cropping of the viewport, with metadata stamping (i.e. can load/restore the settings used to produce that screenshot given a screenshot saved using this tool)</li>
+
+			<li>Support for <b>multiple customisable surface shading techniques</b> - including multiple per-channel colour sets, Matcap support, and adjustable lighting controls.</li>
+
+			<li><b>Lightweight JSON-based open data format</b></li>
+
+			<li><b>Command-line</b> and batch processing modes</li>
+			
+			<li><b>Cross-Platform Support</b>  (Windows and Linux)</li>
+		</ul>
+		
+		
+		<h1>Video Demos</h1>
+		<p><center>
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/39WSH1XzuC4" frameborder="0" allowfullscreen></iframe>
+		</center></p>
+		
+		<p><center>
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/ssOZUv_aK6M" frameborder="0" allowfullscreen></iframe>
+		</center></p>
+		
+		<h1>Downloads</h1>
+		<p>For expressions of interest for getting a copy of TPMS Studio, please contact: <br> <a href="mailto:joshua.leung@canterbury.ac.nz">joshua.leung@canterbury.ac.nz</a></p>
+		
+		<p>We are in the early stages of opening up our software for use beyond our research group, and would be very interested in getting the wider world to experience the exciting tools we've been building!</p>
+		
+		<h1>Credits / Acknowledgements</h1>
+		<p>TPMS Studio was initially developed from the ground up at the <a href="https://www.canterbury.ac.nz">University of Canterbury</a> by Dr Joshua Leung (<a href="https://gitlab.com/JoshuaLeungUCNZ">@JoshuaLeungUCNZ</a>) as part of a 5-year <a href="https://www.mbie.govt.nz/science-and-technology/science-and-innovation/funding-information-and-opportunities/investment-funds/endeavour-fund/">MBIE Endeavour Fund Research Programme</a> (UOCX1903) lead by Professor Conan Fee, and involving collaborators from University of Otago,
+Victoria University, and Callaghan Innovation.</p>
+		
+		<h1>Citing</h1>
+		<p>
+			Here is a BibTeX entry to use if using or extending TPMS Studio as part of your research:
+		</p>
+<pre>
+	@software{TpmsStudio,
+	  author = {Joshua Leung, {TPMS Studio Contributors}},
+	  title = {TPMS Studio},
+	  url = {https://gitlab.com/porous3dp/tpms_studio},
+	  version = {0.8.0},
+	  date = {2023-05-18},
+	}
+</pre>
+		
+		<footer class="site-footer">
+			<span class="site-footer-credits">(c) Joshua Leung, 2020-2023</span>
+		</footer>
+	</section>
+</body>
+</html>
+
